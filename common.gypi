@@ -16,8 +16,8 @@
         ],
       }, {
         'ogg_libraries': [
-          '<(node_ogg)/build/$(BUILDTYPE)/lib.target/ogg.node',
-          '-Wl,-rpath,<(node_ogg)/build/$(BUILDTYPE)',
+          '<(node_ogg)/build/$(BUILDTYPE)/obj.target/ogg.node',
+          '-Wl,-rpath,<(node_ogg)/build/$(BUILDTYPE)/obj.target',
         ],
       }],
     ],
